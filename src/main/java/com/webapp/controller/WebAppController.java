@@ -13,7 +13,7 @@ public class WebAppController {
 	}
 
 	@GetMapping("/managers")
-	public String showManadzers() {
+	public String showManagers() {
 		
 		return "managers";
 
